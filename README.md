@@ -1,5 +1,27 @@
 # [Superkube](https://imperavi.com/superkube/)
 
+This is a fork of the original Superkube SCSS utility class framework. The
+original was retired in 2022, but I continue to find it useful.
+
+One difference right off the bat is I include both light and dark mode styles in the default build.
+
+## Usage
+
+Install dependencies and process `superkube/` sources with dart-sass.
+
+```bash
+pnpm install
+pnpm run build
+```
+
+Copy `dist/superkube.css` to wherever you need it.
+
+Additional processing and packaging may follow once I've got the core workflow going.
+
+Original README documentation follows:
+
+---
+
 Superkube is a free CSS/SCSS framework that has a lot of ready-made modules, modifiers, settings and variables HTML of website or web-interface.
 
 <a href="https://imperavi.com/superkube/">
