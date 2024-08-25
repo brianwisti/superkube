@@ -38,7 +38,9 @@ $spacing-scale: scale(spacing);
 @each $name, $index in $spacing-scale {
     .stack-#{$name} > * {
         margin-bottom: $unit * $index;
-        &:after { bottom: -($unit * $index)/2; }
+        &:after {
+          bottom: calc(-1 * ($unit * $index) / 2);
+        }
     }
 }
 

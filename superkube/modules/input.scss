@@ -64,19 +64,23 @@
         outline: 2px solid var(--input-outline-color);
     }
 }
+
 .input-small {
     --input-height: 36px;
     --input-font-size: var(--type-scale-14);
 }
+
 .input-large {
     --input-height: 52px;
     --input-font-size: var(--type-scale-18);
     --input-padding: 0.3em 0.4em;
 }
+
 .input-round {
     --input-border-radius: 99px;
     --input-padding: 0.3em 1em;
 }
+
 .input-light {
     @include placeholder(var(--placeholder-light));
 
@@ -90,6 +94,7 @@
     --input-focus-border-color: transparent;
     --input-focus-background-color: var(--palette-white-20);
 }
+
 // States
 .input-error {
     // colors
@@ -102,6 +107,7 @@
     --input-focus-outline-color: var(--palette-negative-base);
 
 }
+
 .input-success {
     // colors
     --input-color: var(--palette-positive-dark);
